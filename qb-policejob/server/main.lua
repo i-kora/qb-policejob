@@ -61,7 +61,7 @@ local function UpdateBlips()
         end
     
     end
-    TriggerClientEvent("sheriff:client:UpdateBlips", -1, dutyPlayers)
+    TriggerClientEvent("police:client:UpdateBlips", -1, dutyPlayers)
 end
 
 local function CreateBloodId()
